@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pendaftaran Seminar Teknologi 2026</title>
+  </head>
+  <body bgcolor="#f4f4f4">
+    <center>
+      <table width="800" bgcolor="#ffffff" cellpadding="20" border="0">
+        <tr>
+          <td align="center">
+            <h1>SISTEM PENDAFTARAN SEMINAR</h1>
+            <hr width="100" size="3" color="black" />
+            <h3>"Inovasi Informatika di Era Digital 2026"</h3>
+          </td>
+        </tr>
+      </table>
+
+      <table width="800" bgcolor="#ffffff" cellpadding="30" border="0">
+        <tr>
+          <td>
+            <form action="#" method="post" enctype="multipart/form-data">
+              <table width="100%" bgcolor="#e9ecef" cellpadding="10">
+                <tr>
+                  <td>
+                    <strong>Catatan:</strong> Pastikan Anda mengisi email yang
+                    aktif untuk pengiriman E-Sertifikat dan tautan Zoom/Lokasi.
+                  </td>
+                </tr>
+              </table>
+
+              <br /><br />
+
+              <fieldset>
+                <legend><strong>DATA DIRI PESERTA</strong></legend>
+                <table width="100%" border="0" cellpadding="8">
+                  <tr>
+                    <td width="30%"><label for="nama">Nama Lengkap</label></td>
+                    <td>
+                      :
+                      <input
+                        type="text"
+                        id="nama"
+                        name="nama"
+                        size="40"
+                        required
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">Alamat Email</label></td>
+                    <td>
+                      :
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        size="40"
+                        required
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="telp">No. WhatsApp</label></td>
+                    <td>
+                      :
+                      <input
+                        type="tel"
+                        id="telp"
+                        name="telp"
+                        placeholder="08xxxxxxxx"
+                        required
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td>
+                      : <input type="radio" id="pria" name="jk" value="L" />
+                      <label for="pria">Laki-laki</label>
+                      <input type="radio" id="wanita" name="jk" value="P" />
+                      <label for="wanita">Perempuan</label>
+                    </td>
+                  </tr>
+                </table>
+              </fieldset>
+
+              <br />
+
+              <fieldset>
+                <legend><strong>DETAIL WORKSHOP</strong></legend>
+                <table width="100%" border="0" cellpadding="8">
+                  <tr>
+                    <td width="30%"><label for="topik">Pilih Sesi</label></td>
+                    <td>
+                      :
+                      <select id="topik" name="topik" required>
+                        <option value="">-- Pilih Sesi Workshop --</option>
+                        <option value="web">
+                          Pemrograman Web Modern (HTML5 & API)
+                        </option>
+                        <option value="ai">Implementasi AI pada UMKM</option>
+                        <option value="data">Data Science untuk Pemula</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td valign="top">
+                      <label for="pesan">Alasan Mengikuti</label>
+                    </td>
+                    <td>
+                      :
+                      <textarea
+                        id="pesan"
+                        name="pesan"
+                        rows="4"
+                        cols="40"
+                      ></textarea>
+                    </td>
+                  </tr>
+                </table>
+              </fieldset>
+
+              <br />
+
+              <fieldset>
+                <legend><strong>KONFIRMASI PEMBAYARAN</strong></legend>
+                <table width="100%" border="0" cellpadding="8">
+                  <tr>
+                    <td width="30%">
+                      <label for="bukti">Upload Bukti Transfer</label>
+                    </td>
+                    <td>
+                      : <input type="file" id="bukti" name="bukti" required />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <small
+                        ><i
+                          >*Format file: JPG, PNG, atau PDF (Maks. 2MB)</i
+                        ></small
+                      >
+                    </td>
+                  </tr>
+                </table>
+              </fieldset>
+
+              <br /><br />
+              <a href="kirim.html">
+                <input type="button" value="KIRIM PENDAFTARAN" />
+              </a>
+            </form>
+          </td>
+        </tr>
+      </table>
+
+      <table width="800" cellpadding="20" border="0">
+        <tr>
+          <td align="center">
+            <font size="2" color="#666666">
+              &copy; 2026 Panitia Seminar Informatika | Tugas Pemrograman Web
+              Pertemuan 4
+            </font>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
